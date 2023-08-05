@@ -1,17 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
-
+import Header from "./Header";
+import Content from "./Content";
 function App() {
-  const myName = "Charan Vignesh";
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hi {myName}!</p>
-      </header>
+    <div>
+      <Header />
+      <Content />
     </div>
   );
 }
-
 export default App;
